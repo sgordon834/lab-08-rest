@@ -1,0 +1,35 @@
+{
+  "name": "lab-08-rest",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: Vanilla REST API ======",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "watch": "nodemon",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgordon834/lab-08-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgordon834/lab-08-rest/issues"
+  },
+  "homepage": "https://github.com/sgordon834/lab-08-rest#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "fs-extra": "^4.0.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "mocha": "^4.0.1",
+    "superagent": "^3.6.3"
+  }
+}
