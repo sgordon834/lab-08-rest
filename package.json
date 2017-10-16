@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest -i --coverage",
+    "test": "jest",
     "watch": "nodemon",
     "start": "node index.js"
   },
@@ -28,6 +28,7 @@
     "uuid": "^3.1.0"
   },
   "devDependencies": {
+    "expect": "^21.2.1",
     "jest": "^21.2.1",
     "mocha": "^4.0.1",
     "superagent": "^3.6.3"

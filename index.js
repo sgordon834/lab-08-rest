@@ -8,6 +8,6 @@ server.start(process.env.PORT)
   .then(console.log)
   .catch(console.log);
 
-// server.stop()
-//   .then(console.log)
-//   .catch(console.log);
+server.stop()
+  .then(console.log)
+  .catch(console.log);
