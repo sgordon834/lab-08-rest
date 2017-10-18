@@ -52,8 +52,9 @@ describe('api/notes lab', function() {
         .catch(res => {
           expect(res.status).toEqual(400);
         });
-
-        
     });
+
+    
   });
+        
 });

@@ -1,6 +1,35 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: Vanilla REST API
 ======
 
+Description:
+
+This app builds out an API where data is stored in the file system. This API stores notes data.
+
+API:
+
+The URL endpoint to access the api is /api/notes. Using REST the data is read, written and deleted using GET, POST and DELETE requests.
+
+POST
+
+The Post method. Make a POST request with:
+
+echo '{"title":"World of Warcraft", "content":"Note Test"}' | http post http://localhost:3000/api/notes
+
+GET
+
+The GET method. Make a GET request with:
+
+http get http://localhost:3000/api/notes
+
+This will respond with 200 if the request was made, 404 if not found or 400 if the request was made in wrong format.
+
+DELETE
+The Delete method. You can see that we first make a request to post to
+
+http delete http://localhost:3000/api/notes?id=(id)
+
+This will respond with 200 if the request was made, 404 if not found or 400 if the request was made incorrectly.
+
 ## Submission Instructions
   * fork this repository & create a new branch for your work
   * write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
